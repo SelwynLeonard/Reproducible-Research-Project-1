@@ -3,9 +3,10 @@ title: "Coursera Reproducible Research Project 1"
 author: "Selwyn Leonard"
 date: "23 August 2018"
 output:
+  word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 
 Loading the data
