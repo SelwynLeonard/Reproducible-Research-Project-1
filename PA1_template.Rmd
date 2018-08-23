@@ -1,10 +1,11 @@
 ---
 title: "Coursera Reproducible Research Project 1"
 author: "Selwyn Leonard"
-date: "05 August 2018"
+date: "23 August 2018"
 output:
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 Loading the data
@@ -166,4 +167,4 @@ xyplot(Avg~interval|DayCategory, data=intervalTable2, type="l",  layout = c(1,2)
        ylab="Average Number of Steps", xlab="Interval")
 ```
 
-Yee, the step activity trends are different based on whether the day occurs on a weekend or not. This may be due to people having an increased opportunity for activity beyond normal work hours for those who work during the week.
+Yes, the step activity trends are different based on whether the day occurs on a weekend or not. This may be due to people having an increased opportunity for activity beyond normal work hours for those who work during the week.
